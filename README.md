@@ -96,3 +96,7 @@ The feature file covers a wide range of positive, negative, boundary, and error 
 
 Created by: **Somin Wani**
 
+### 📌 ROLE Applying For
+
+**Senior Quality Engineer – Qantas Hotels**
+
