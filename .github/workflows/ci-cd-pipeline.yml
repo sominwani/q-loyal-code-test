@@ -43,3 +43,12 @@ jobs:
         with:
           name: cucumber-html-report
           path: target/cucumber-report.html
+
+#     Commenting slack notification as there is no slack channel
+#      - name: Slack Notification
+#        uses: ./.github/composite-actions/slack-notification
+#        if: failure() || success()
+#        with:
+#          slack-webhook: ${{ secrets.SLACK_WEBHOOK }}
+#          message-title: "Workflow Status"
+#          job-status: ${{ job.status }}
