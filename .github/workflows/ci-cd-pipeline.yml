@@ -39,6 +39,7 @@ jobs:
 
       - name: Upload Cucumber HTML Report
         uses: actions/upload-artifact@v4
+        if: failure()
         with:
           name: cucumber-html-report
           path: target/cucumber-report.html
