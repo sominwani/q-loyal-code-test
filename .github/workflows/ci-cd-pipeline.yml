@@ -32,7 +32,7 @@ jobs:
             ${{ runner.os }}-m2
 
       - name: Install dependencies
-        run: mvn clean install --no-transfer-progress
+        run: mvn clean install -DskipTests --no-transfer-progress
 
       - name: Run tests
         run: mvn test
