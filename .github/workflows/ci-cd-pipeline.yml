@@ -3,7 +3,8 @@ name: QloyalCodeTestgit remote add origin git@github.com:sominwani/q-loyal-code-
 on:
   push:
     branches:
-      - main
+      - "!main"
+      - "**"
   pull_request:
     branches:
       - main
